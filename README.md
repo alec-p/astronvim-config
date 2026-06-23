@@ -32,3 +32,14 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Configuration Dependencies
+
+### Language Packs
+
+Installing Astronvim's community mdx and python language paths the following Debian packages:
+
+* openjdk-21-jdk
+* libpython3-dev
+* python3-pip
+* python3-venv
