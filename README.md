@@ -33,9 +33,9 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 nvim
 ```
 
-## Configuration Dependencies
+## Configuration Notes
 
-### Language Packs
+### Language Pack Dependencies
 
 Installing Astronvim's community mdx and python language paths the following Debian packages:
 
@@ -43,3 +43,9 @@ Installing Astronvim's community mdx and python language paths the following Deb
 * libpython3-dev
 * python3-pip
 * python3-venv
+
+### LTeX+
+
+* LTeX+ is installed using Mason (```MasonInstall ltex-ls-plus```)
+* Custom configuration is in ```nvim/after/lsp``` (default configuration is in ```$HOME/.local/share/nvim/lazy/nvim-lspconfig/lsp/ltex_plus.lua```
+
