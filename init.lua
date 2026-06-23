@@ -25,3 +25,7 @@ end
 
 require "lazy_setup"
 require "polish"
+
+vim.opt.wrap = true
+vim.opt.tabstop = 4
+vim.opt.expandtab = true
